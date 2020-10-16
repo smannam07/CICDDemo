@@ -7,7 +7,7 @@
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Validation1",
+						"activity": "Validation",
 						"dependencyConditions": [
 							"Succeeded"
 						]
@@ -68,7 +68,7 @@
 				]
 			},
 			{
-				"name": "Validation1",
+				"name": "Validation",
 				"type": "Validation",
 				"dependsOn": [],
 				"userProperties": [],
